@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Solution {
+class Solution { //algo to find gcd of two numbers using euclidean algorithm
 public:
     int gcd(int n1, int n2) { //time complexity O(log(min(n1,n2)))
         
