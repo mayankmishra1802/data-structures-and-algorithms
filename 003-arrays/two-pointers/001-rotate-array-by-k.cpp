@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class Solution {
+class Solution { //time complexity: O(n)
 public:
     void reverse(vector<int>& nums,int i,int j){
         while(i<j){
