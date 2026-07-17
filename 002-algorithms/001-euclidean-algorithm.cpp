@@ -8,7 +8,7 @@ public:
         int greater = max(n1, n2);
         int smaller = min(n1, n2);
 
-        while (greater % smaller != 0) {
+        while (smaller!= 0) {
             int remainder = greater % smaller;
             greater = smaller;
             smaller = remainder;
