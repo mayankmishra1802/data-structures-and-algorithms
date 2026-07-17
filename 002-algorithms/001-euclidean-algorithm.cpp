@@ -14,6 +14,6 @@ public:
             smaller = remainder;
         }
 
-        return smaller;
+        return greater;
     }
 };
